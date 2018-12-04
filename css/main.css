@@ -1,3 +1,37 @@
+html {
+  font: normal 100%/1.5 "Open Sans", sans-serif;
+}
+
 span {
-  background-color: rgba(0,0,0,5);
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.card-body {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  width: 100%;
+  max-width: 50em;
+  position: absolute;
+  left: 50%;
+  bottom: 1.5rem;
+  transform: translateX(-50%);
+}
+
+.banner {
+  overflow: hidden;
+  position: relative;
+  max-height: 500px;
+}
+
+h2 {
+  margin: 0;
+  line-height: 1.4;
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
 }
