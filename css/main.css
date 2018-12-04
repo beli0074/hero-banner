@@ -1,5 +1,14 @@
 html {
   font: normal 100%/1.5 "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
 }
 
 span {
@@ -34,4 +43,11 @@ h2 {
   color: white;
   font-size: 4rem;
   font-weight: bold;
+}
+
+h2 + p {
+  font-style: italic;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
